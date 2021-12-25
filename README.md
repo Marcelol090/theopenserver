@@ -1,5 +1,7 @@
 # The Empire Server
- TFS 1.4 
+## Tests
+[![Build on Ubuntu](https://github.com/openistibia/the-realempire-server/actions/workflows/build-ubuntu.yml/badge.svg)](https://github.com/openistibia/the-realempire-server/actions/workflows/build-ubuntu.yml) [![Build with vcpkg](https://github.com/openistibia/the-realempire-server/actions/workflows/build-vcpkg.yml/badge.svg?branch=main)](https://github.com/openistibia/the-realempire-server/actions/workflows/build-vcpkg.yml)[![Coverity](https://github.com/openistibia/the-realempire-server/actions/workflows/coverity.yml/badge.svg)](https://github.com/openistibia/the-realempire-server/actions/workflows/coverity.yml)[![Docker](https://github.com/openistibia/the-realempire-server/actions/workflows/docker-image.yml/badge.svg)](https://github.com/openistibia/the-realempire-server/actions/workflows/docker-image.yml)<br>
+[![Lua syntax check](https://github.com/openistibia/the-realempire-server/actions/workflows/lua-syntax.yml/badge.svg)](https://github.com/openistibia/the-realempire-server/actions/workflows/lua-syntax.yml)[![XML syntax check](https://github.com/openistibia/the-realempire-server/actions/workflows/xml-syntax.yml/badge.svg)](https://github.com/openistibia/the-realempire-server/actions/workflows/xml-syntax.yml)
 ### Informações do Servidor e Sistemas:
 - Protocolo: 10.98
 - Engine: [TFS 1.4](https://github.com/otland/forgottenserver/tree/1.4) nas últimas revisões.
