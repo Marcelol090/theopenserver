@@ -9,7 +9,8 @@
 - [Atualizações]
 
 ### Dúvidas, erros, dicas e contribuições:
-[issue](https://github.com/openistibia/the-realempire-server/issues/new) <br>
+under-union-item-level-system/lib
+[issue](https://github.com/openistibia/the-realempire-server/issues/new/choose) <br>
 [pull requests](https://github.com/openistibia/the-realempire-server/pulls) 
 ### Website compatível:
 - [ZnoteACC](https://github.com/openistibia/tibiacom-layout) Tibia.com Clone(feito em boostrap 5).

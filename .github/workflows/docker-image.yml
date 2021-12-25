@@ -11,7 +11,7 @@ on:
       - v*
 
 env:
-  IMAGE_NAME: forgottenserver
+  IMAGE_NAME: the-realempire-server
 
 jobs:
   # Push image to GitHub Package Registry.
