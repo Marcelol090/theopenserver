@@ -133,6 +133,7 @@ end
 function Player:onGainExperience(source, exp, rawExp)
 	if not source or source:isPlayer() then
 		return exp
+		exp = us_onGainExperience(self, source, exp, rawExp)
 	end
 
 	-- Soul regeneration
