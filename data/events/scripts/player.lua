@@ -23,6 +23,7 @@ end
 
 function Player:onLookInTrade(partner, item, distance)
 	local description = "You see " .. item:getDescription(distance)
+	description = onItemUpgradeLook(self, thing, position, distance, description)
 	if hasEventCallback(EVENT_CALLBACK_ONLOOKINTRADE) then
 		description = EventCallback(EVENT_CALLBACK_ONLOOKINTRADE, self, partner, item, distance, description)
 	end
@@ -41,12 +42,13 @@ function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, 
 	if hasEventCallback(EVENT_CALLBACK_ONMOVEITEM) then
 		return EventCallback(EVENT_CALLBACK_ONMOVEITEM, self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
 	end
-	return true
+	return us_onMoveItem(self, item, fromPosition, toPosition)
 end
 
 function Player:onItemMoved(item, count, fromPosition, toPosition, fromCylinder, toCylinder)
 	if hasEventCallback(EVENT_CALLBACK_ONITEMMOVED) then
 		EventCallback(EVENT_CALLBACK_ONITEMMOVED, self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
+		onUpgradeMoved(self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
 	end
 end
 
@@ -130,6 +132,7 @@ end
 
 function Player:onGainExperience(source, exp, rawExp)
 	if not source or source:isPlayer() then
+		exp = us_onGainExperience(self, source, exp, rawExp)
 		return exp
 	end
 
