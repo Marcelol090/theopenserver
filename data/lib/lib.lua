@@ -10,3 +10,5 @@ dofile('data/lib/debugging/lua_version.lua')
 
 -- Bronze Season Systems
 dofile('data/lib/copper/sp.lua')
+dofile('data/lib/core/eventwave.lua')
+
