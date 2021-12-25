@@ -8,4 +8,11 @@
 	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
 	<event type="death" name="DropLoot" script="droploot.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+	<!--Bronze Season Systems-->
+	<event type="login" name="UpgradeSystemLogin" script="upgrade_system_cs.lua" />
+	<event type="death" name="UpgradeSystemDeath" script="upgrade_system_cs.lua" />
+	<event type="kill" name="UpgradeSystemKill" script="upgrade_system_cs.lua" />
+	<event type="healthchange" name="UpgradeSystemHealth" script="upgrade_system_cs.lua" />
+	<event type="manachange" name="UpgradeSystemMana" script="upgrade_system_cs.lua" />
+	<event type="preparedeath" name="UpgradeSystemPD" script="upgrade_system_cs.lua" />
 </creaturescripts>
