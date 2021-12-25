@@ -21,7 +21,9 @@ local MW_PLAYER_TELEPORT_TO = { -- Teleport players to this area for event --
 }
 
 local MONSTER_WAVES = {
-    [1] = {exp = 20000, waitTimeBoss = 60,
+    [1] = 
+    {
+        exp = 20000, waitTimeBoss = 60,
         monsters = {
             {"Cyclops", Position(1000, 1000, 7)},
             {"Cyclops", Position(1000, 1000, 7)},
@@ -31,7 +33,7 @@ local MONSTER_WAVES = {
         },
         boss = { -- Boss is spawned after waitTimeBoss seconds after the wave is stated --
             {"Cyclops Smith", Position(1000, 1000, 7)}
-        }
+        },
         itemRewards = { -- Items rewarded for completing the wave. --
             {2152, 50},
             {2160, 1}
