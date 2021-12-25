@@ -25,6 +25,9 @@ function Creature:onTargetCombat(target)
 	else
 		return RETURNVALUE_NOERROR
 	end
+	-- registerTargetEvent at the end UpgradeHealth or Death for event
+	target:registerEvent("UpgradeSystemHealth")
+	target:registerEvent("UpgradeSystemDeath")
 end
 
 function Creature:onHear(speaker, words, type)
