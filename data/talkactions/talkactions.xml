@@ -46,6 +46,8 @@
 	<talkaction words="!kills" script="kills.lua" />
 	<talkaction words="!online;/online" script="online.lua" />
 	<talkaction words="!serverinfo" script="serverinfo.lua" />
+	<!--Bronze Season Systems-->
+	<talkaction words="!points" script="sp.lua"/>
 
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua" />

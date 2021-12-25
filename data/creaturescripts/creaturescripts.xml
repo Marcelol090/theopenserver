@@ -15,4 +15,7 @@
 	<event type="healthchange" name="UpgradeSystemHealth" script="upgrade_system_cs.lua" />
 	<event type="manachange" name="UpgradeSystemMana" script="upgrade_system_cs.lua" />
 	<event type="preparedeath" name="UpgradeSystemPD" script="upgrade_system_cs.lua" />
+	<event type="modalwindow" name="skillPoints_modal" script="sp.lua"/>
+    <event type="advance" name="skillPoints_advance" script="sp.lua"/>
+    <event type="login" name="skillPoints_register" script="sp.lua"/>
 </creaturescripts>
