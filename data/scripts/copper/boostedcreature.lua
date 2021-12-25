@@ -1,6 +1,6 @@
 boosted = {}
 boosted.creatures = {}
--- possible monsters
+-- possible monsters more then one
 boosted.possible = {
     {
         {"Demon", "Hellhound", "Grim Reaper", "Juggernaut"}, -- exp list
