@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!--Bronze Season Systems-->
+	<movevent event="StepIn" itemid="1387" script="citizen.lua" />
+	<movevent event="StepIn" itemid="1387" script="citizen.lua" />
+
 	<!-- Decaying tiles -->
-	<movevent event="StepIn" itemid="293" script="decay.lua" />
-	<movevent event="StepIn" itemid="461" script="decay.lua" />
+	<movevent event="StepIn" itemid="ID" script="eventwave.lua" />
+	<movevent event="StepIn" itemid="ID" script="eventwave.lua" />
 
 	<!-- (Depot & Level) tiles -->
 	<movevent event="StepIn" itemid="416" script="tiles.lua" />
