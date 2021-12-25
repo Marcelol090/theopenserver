@@ -242,7 +242,7 @@ local itemIds = {1487, 1486,1485,1490,1491,1497}
             end
         end
     end
-    -- clean based off of cache
+    -- clean based off of  cache
     for i = 1, #tileCache do
         local items = tileCache[i]:getItems()
         if items and next(items) then
