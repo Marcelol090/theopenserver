@@ -23,6 +23,7 @@ end
 
 function Player:onLookInTrade(partner, item, distance)
 	local description = "You see " .. item:getDescription(distance)
+	description = onItemUpgradeLook(self, thing, position, distance, description)
 	if hasEventCallback(EVENT_CALLBACK_ONLOOKINTRADE) then
 		description = EventCallback(EVENT_CALLBACK_ONLOOKINTRADE, self, partner, item, distance, description)
 	end
