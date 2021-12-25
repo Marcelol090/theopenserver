@@ -8,7 +8,7 @@ function moveevent.onEquip(player, item, slot, isCheck)
     for _, player in ipairs(Game.getPlayers()) do
     local ring = player:getSlotItem(CONST_SLOT_RING)
         if ring and ring:getId() == effectItem then
-        player:getPosition():sendMagicEffect(234) -- sends effect 234
+        player:getPosition():sendMagicEffect(233) -- sends effect 233
     end
     end
     return true
