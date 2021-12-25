@@ -48,6 +48,7 @@ end
 function Player:onItemMoved(item, count, fromPosition, toPosition, fromCylinder, toCylinder)
 	if hasEventCallback(EVENT_CALLBACK_ONITEMMOVED) then
 		EventCallback(EVENT_CALLBACK_ONITEMMOVED, self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
+		onUpgradeMoved(self, item, count, fromPosition, toPosition, fromCylinder, toCylinder)
 	end
 end
 
