@@ -9,7 +9,7 @@
 - [Atualizações]
 
 ### Dúvidas, erros, dicas e contribuições:
-under-union-item-level-system/lib
+
 [issue](https://github.com/openistibia/the-realempire-server/issues/new/choose) <br>
 [pull requests](https://github.com/openistibia/the-realempire-server/pulls) 
 ### Website compatível:
