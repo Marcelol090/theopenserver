@@ -17,8 +17,7 @@
 - [ZnoteACC](https://github.com/openistibia/tibiacom-layout) Tibia.com Clone(feito em boostrap 5).
 
 ### Créditos:
-- [Under](https://github.com/Underewarrr)
-- [Cat](https://github.com/Nolisthon)
+- [OpeniITibia Team](https://github.com/openistibia)
 - [TFS engine](https://github.com/otland/forgottenserver/graphs/contributors)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=openistibia" alt="Underewarrr" /> </p>
